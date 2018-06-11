@@ -75,8 +75,14 @@ console.log(login("dasf"))
  * Console.log your result.
 */
 
-
-
+function isGreaterThan(first,second){
+  if(first > second){
+    return true
+  }else{
+    return false
+  }
+}
+console.log(isGreaterThan(3,2));
 /*
  * #4
  * Function - mustBeTrue
