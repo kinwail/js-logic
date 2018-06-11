@@ -54,7 +54,14 @@ console.log(canVote(43))
  * Console.log your result.
 */
 
-
+function login(password){
+if (password === "abcd"){
+  return "Login Success!"
+  }else{
+  return "Login failed. Try Again"
+  }
+}
+console.log(login("dasf"))
 /*
  * #3
  * Function - isGreaterThan
