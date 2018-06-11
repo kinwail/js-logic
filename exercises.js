@@ -161,6 +161,15 @@ console.log(isEqual('great', 'great'))
  * Console.log your result.
 */
 
+function notEqual(first,second){
+  if(first !== second){
+    return "Opposite do attract"
+  }else{
+    return "Cause it's like you're my mirror."
+  }
+}
+console.log(notEqual('great','ness'));
+
 
 /*
  * #8
