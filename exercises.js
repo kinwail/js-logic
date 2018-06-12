@@ -384,12 +384,19 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
+var players = ['Player1', 'Player2', 'Player3', 'Player4', 'Player5']
+for (var i =0; i<players.length; i++){
+  console.log('Player:', players[i]);
+}
 
 /* 
  * #16
  * Create a for loop that will iterate and console.log each item in the array below:
 */
   var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
+for(var i =0; i<myFaveFoods.length;i++){
+  console.log(myFavFood[i]);
+}
 
 
 /*
