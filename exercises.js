@@ -246,10 +246,18 @@ console.log(evenStevens(3))
  *  @param Datatype: Number `age`
  *  @return Datatype: String
  *
- * If BOTH values are 21 or over, the function will return the message: "Welcome to the Legends Lounge." Otherwise, it will return the message: "Chuck E Cheese is across the street."
+ * If BOTH values are 21 or over, the function will return the message: "Welcome to the Legends Lounge." 
+ * Otherwise, it will return the message: "Chuck E Cheese is across the street."
  * Console.log your result.
 */ 
-
+function daClub(cover,age){
+  if(cover>=21 && age>=21){
+    return true 
+  }else{
+    return false
+  }
+}
+console.log(daClub(24,18));
 
 /*
  * #12
