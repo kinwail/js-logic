@@ -394,8 +394,8 @@ for (var i =0; i<players.length; i++){
  * Create a for loop that will iterate and console.log each item in the array below:
 */
   var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
-for(var i =0; i<myFaveFoods.length;i++){
-  console.log(myFavFood[i]);
+for(var i =0; i<myFavFoods.length;i++){
+  console.log(myFavFoods[i]);
 }
 
 
@@ -415,6 +415,15 @@ for(var i =0; i<myFaveFoods.length;i++){
 */
 
 
+var numArray = [2,5,7,9,10];
+var total = 0;
+function sumItUp(arr){
+  for(var i=0;i<numArray.length;i++){
+    total +=numArray[i]
+  }
+return total
+}
+console.log(sumItUp(numArray));
 
 /*
  * #18
